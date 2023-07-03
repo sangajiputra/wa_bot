@@ -1,0 +1,35 @@
+{
+  "name": "waasyik",
+  "version": "1.0.0",
+  "description": "Whatsapp Gateway by Sang Aji",
+  "main": "app-multiple-devices.js",
+  "scripts": {
+    "start": "node app-multiple-devices.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "whatsapp-api",
+    "node.js"
+  ],
+  "author": "SANG AJI",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chromium": "^3.0.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "express-validator": "^6.12.1",
+    "http": "0.0.1-security",
+    "moment": "^2.29.1",
+    "mysql2": "^2.2.5",
+    "pg": "^8.6.0",
+    "qrcode": "^1.4.4",
+    "qrcode-terminal": "^0.12.0",
+    "socket.io": "^4.1.3",
+    "whatsapp-web.js": "^1.13.2"
+  },
+  "engines": {
+    "node": "v14.17.3"
+  }
+}
